@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodRush</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff8f0;
+}
+
+header {
+    background: #ff5722;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background: #ffe0b2;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restaurants {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card {
+    width: 260px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: #fff3e0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+
+    <h2>🍔 FoodRush</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Restaurants</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Delicious Food Delivered Fast</h1>
+    <p>Order your favorite meals from the best restaurants near you.</p>
+    <button>Order Now</button>
+</section>
+
+<section class="restaurants">
+    <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Pizza" alt="Pizza">
+        <h3>Pizza Palace</h3>
+        <p>Fresh cheesy pizzas with delicious toppings.</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Burger" alt="Burger">
+        <h3>Burger Hub</h3>
+        <p>Juicy burgers served with crispy fries.</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Biryani" alt="Biryani">
+        <h3>Spice Kitchen</h3>
+        <p>Authentic biryani and Indian meals.</p>
+        <button>Order Now</button>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 FoodRush. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
